@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+/Users/kelsiegarcia/Documents/gitHub/DatabaseCopy/.metadata/.plugins/org.eclipse.jdt.core
+2352746354.index
+656775699.index
+3245850559.index
+1279510205.index
+158582502.index
+789749982.index
+3060404745.index
+503934805.index
+949168364.index
