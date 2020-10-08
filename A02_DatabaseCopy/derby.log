@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Oct 03 15:52:30 MDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.3 - (1557168): instance a816c00e-0174-f073-bc82-000006c02098 
+on database directory /Users/kelsiegarcia/Documents/gitHub/A02_DatabaseCopy/FlightsDB with class loader sun.misc.Launcher$AppClassLoader@2a139a55 
+Loaded from file:/Users/kelsiegarcia/Documents/gitHub/A02_DatabaseCopy/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=/Users/kelsiegarcia/Documents/gitHub/A02_DatabaseCopy
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.15.6
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
