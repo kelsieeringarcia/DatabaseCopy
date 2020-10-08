@@ -82,18 +82,29 @@ public class SqlFlight {
                 "SELECT * "
                 + "FROM Flight";
     }
-    
-    public static String removeFlightWhere(String airlineId, int number, String airportId, int status,
-            String gate, String date, String time, int duration) {
-    	return "DELETE * "
+    /**
+     * This query will remove the specific flight from the selected table.
+     * @param number
+     * @return A DELETE query
+     */
+    public static String removeFlightWhere(int number) {
+    	return "DELETE "
     			+"FROM Flight "
-    			+ "WHERE Airline = " + airlineId 
-    			+ "AND Number = " + number 
-    			+ "AND Destination = " + airportId
-    			+ "AND Status = " + status
-    			+ "AND Gate = " + gate
-    			+ "AND Time = " + time
-    			+ "AND Duration = " + duration;
+    			+ "WHERE Number = " + number;
+    }
+    /**
+     * This query will update the selected row in the database.
+     */
+    public static String updateFlight(
+            String airlineId, int number, String airportId, int status,
+            String gate, String date, String time, int duration) {
+
+        return
+                "UPDATE Flight "
+                + "SET AirlineId = '" + airlineId + "', Destination = '" + airportId 
+                + "', Status = '" + status + "', Gate = '" + gate + "', Date = '" + date + "', Time = '" 
+                + time + "', Duration = '" + duration  
+                +"WHERE Number = '" + number +"' ";
     }
 
     /**
